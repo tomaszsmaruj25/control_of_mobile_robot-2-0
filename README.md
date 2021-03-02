@@ -11,7 +11,7 @@ For this task we used the script ["Controlling mobile robots, laboratory - Macie
 
 ## Controller Types
 
-* Linearization techniques
+### Linearization techniques
 As a mobile robot is a nonlinear system, controlling such a robot is more difficult than in
 the case of linear systems. Therefore, the drivers resulting from this method rely on adding to the chip
 linearizing feedback from state. Linearization can be performed by two procedures:
