@@ -6,6 +6,7 @@ The aim of the discussed laboratory exercises was to get to know and understand 
 ## Sources and environment
 
 The model was made in Matlab & Simulink. Project created together with [Szymon Kacperek](https://github.com/szymonkacperek). 
+
 For this task we used the script ["Controlling mobile robots, laboratory - Maciej Michałek, Dariusz Pazderski"](https://issuu.com/wydawnictwo_pp/docs/sterowanie_robotow)
 
 ## Controller Types
