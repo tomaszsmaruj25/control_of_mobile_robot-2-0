@@ -23,15 +23,15 @@ By transforming the state variables and control inputs in the input-output path 
 feedback.
 This controller is suitable for trajectory tracking, position retrieval, and track following. 
 
-<img src="assets/linear_robot.png" width="500" height="350">
+<img src="assets/linear_robot.PNG" width="500" height="350">
 
 ### Pomet stabilizer
 This method is designed for point stabilization task. The main problem with getting to a point is the lack of continuous excitation, as in the case of a trajectory tracking task, for example, where it is time dependent. It is constant over time for the task of driving to a point. The main concept of this control is to replace the stimulation from the reference signal generator with a trigger artificially generated in feedback. The time-dependent function will be used for this, which will bypass the limitations of Brokett's theorem and constantly stimulate the target point. 
 
-<img src="assets/pomet_robot.png" width="500" height="350">
+<img src="assets/pomet_robot.PNG" width="500" height="350">
 
 ###  VFO Method
 The vector field orientation control method (VFO) belongs to the class of discontinuous algorithms. It makes it possible to solve the task of tracing variables in time and the task of point-to-point control. The discontinuity in the driver version for the control-to-point task allows the constraint resulting from Broktett's theorem to be omitted. The principle of VFO control results from simple geometric interpretations related to the structure of the kinematics model.
 The key element in the VFO control is the so-called The vector field of convergence (depending on the state of the robot) which has the dimension of the generalized velocity.
 
-<img src="assets/vfo_robot.png" width="500" height="350">
+<img src="assets/VFO_robot.PNG" width="500" height="350">
