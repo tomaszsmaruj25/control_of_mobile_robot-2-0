@@ -3,6 +3,8 @@
 ## Introduction
 The aim of the discussed laboratory exercises was to get to know and understand the issues related to the control of mobile robots. In the following exercises, individual work stages were performed - from creating a robot model to designing a controller. The end result was to be the modeling of a limited mobility mobile robot control system with kinematics (2.0). 
 
+<img src="assets/srmob_demo.gif" width="500" height="350">
+
 ## Sources and environment
 
 The model was made in Matlab & Simulink. Project created together with [Szymon Kacperek](https://github.com/szymonkacperek). 
