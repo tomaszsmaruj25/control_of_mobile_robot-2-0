@@ -23,7 +23,8 @@ By transforming the state variables and control inputs in the input-output path 
 feedback.
 This controller is suitable for trajectory tracking, position retrieval, and track following. 
 
-<img src="assets/linear_robot.PNG" width="500" height="350">
+<img src="assets/linear_robot.PNG" width="400" height="300">
+<img src="assets/linear_robot.PNG" width="400" height="300">
 
 ### Pomet stabilizer
 This method is designed for point stabilization task. The main problem with getting to a point is the lack of continuous excitation, as in the case of a trajectory tracking task, for example, where it is time dependent. It is constant over time for the task of driving to a point. The main concept of this control is to replace the stimulation from the reference signal generator with a trigger artificially generated in feedback. The time-dependent function will be used for this, which will bypass the limitations of Brokett's theorem and constantly stimulate the target point. 
